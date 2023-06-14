@@ -15,10 +15,16 @@ scripts
 there are bugs such as when i was generating all the buttons it left the first button on each page coordinates are missing and will fix that
 scripts
 ./runone in directories img12packfigurebase/multiples/steps/goodcomparisondouble/compile/ or img12packfigurebase/multiples/steps/goodcomparisondouble01 to 07 so far i know work esp with the gcc optimization flag it will work for sure
-to satisfy the hardcode paths please run: sudo ln -s /home/YOURUSER /home/molasses replace YOURUSER with your username
-and in ~ do mkdir -p /home/earth2del/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
-cd /home/earth2del/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
+
+to satisfy the hardcode paths please run: 
+sudo ln -s /home/YOURUSER /home/molasses replace YOURUSER with your username
+and in home folder (~) do 
+
+mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
+
+cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
 git clone https://github.com/Rodartist/img12packfigurebase
 git clone https://github.com/Rodartist/C64Music
-launch a binary
+
+Launch a gtk3 xterm expect script launcher do:
 cd /home/earth2del/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07 && ./runone
