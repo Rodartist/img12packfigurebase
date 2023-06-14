@@ -15,7 +15,7 @@ the directories in multiples/steps/ or img12packfigurebase/multiples/steps/goodc
 img12packfigurebase/multiples/steps/goodcomparisondouble01 this runone.c source needs a revamping its on the TODO (an old way with a lot more hardcoding paths)
 img12packfigurebase/multiples/steps/goodcomparisondouble/compile/ and img12packfigurebase/multiples/steps/goodcomparisondouble0[2-6] and maybe 7 the runone binaries work though i just learnt about the gcc -O3 optimization flag which insure they work on every launch so if you have problems add the -O3 flags in run.sh and run that script to recompile the binary
 
-there are bugs such as when i was generating all the buttons it left the first button on each page coordinates are missing and will fix that
+there are bugs such as when i was generating all the buttons it left the first button on each notebook coordinates are missing and will fix that
 
 ./runone in directories img12packfigurebase/multiples/steps/goodcomparisondouble/compile/ or img12packfigurebase/multiples/steps/goodcomparisondouble01 to 07 so far i know work esp with the gcc optimization flag it will work for sure
 
@@ -31,3 +31,12 @@ git clone https://github.com/Rodartist/C64Music
 
 Launch a gtk3 xterm expect script launcher do:
 cd /home/earth2del/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07 && ./runone
+
+if you want to assign a small icon image on every button do:
+mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui
+cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui
+gdk-pixbuf-thumbnailer -s 55x55 youriconfile icon999-55x55.jpg
+
+source code files are't perfect yet. I was struggling with them before I found out about the compiler optimizations :)
+
+going to fix that later
