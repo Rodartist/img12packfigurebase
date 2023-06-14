@@ -1,0 +1,2 @@
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/MUSICIANS-A-AMJ-Together_intro.sid/startcell1807+1807-1alt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/MUSICIANS-A-AMJ-Together_intro.sid/1807+1807-1cellalt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift

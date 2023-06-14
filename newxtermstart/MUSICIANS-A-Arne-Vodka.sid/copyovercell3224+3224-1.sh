@@ -1,0 +1,2 @@
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/MUSICIANS-A-Arne-Vodka.sid/startcell3224+3224-1alt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/MUSICIANS-A-Arne-Vodka.sid/3224+3224-1cellalt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift

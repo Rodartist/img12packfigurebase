@@ -1,0 +1,2 @@
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/DEMOS-UNKNOWN-Judge_Dredd_Demo.sid/startcell53302+53302-1alt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/DEMOS-UNKNOWN-Judge_Dredd_Demo.sid/53302+53302-1cellalt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift

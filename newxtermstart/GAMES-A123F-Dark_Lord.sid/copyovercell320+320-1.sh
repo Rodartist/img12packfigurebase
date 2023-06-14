@@ -1,0 +1,2 @@
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/GAMES-A123F-Dark_Lord.sid/startcell320+320-1alt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/GAMES-A123F-Dark_Lord.sid/320+320-1cellalt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift

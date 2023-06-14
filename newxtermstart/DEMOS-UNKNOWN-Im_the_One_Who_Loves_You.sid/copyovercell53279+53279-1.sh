@@ -1,0 +1,2 @@
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/DEMOS-UNKNOWN-Im_the_One_Who_Loves_You.sid/startcell53279+53279-1alt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
+cp /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/DEMOS-UNKNOWN-Im_the_One_Who_Loves_You.sid/53279+53279-1cellalt.sh /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift
