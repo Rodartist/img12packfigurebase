@@ -38,5 +38,8 @@ cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui
 gdk-pixbuf-thumbnailer -s 55x55 youriconfile icon999-55x55.jpg
 
 source code files are't perfect yet. I was struggling with them before I found out about the compiler optimizations :)
+$ cat run.sh 
+gcc -O3 -g `pkg-config --cflags gtk+-3.0` -o runone runone.c `pkg-config --libs gtk+-3.0`
+~/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07
 
-going to fix that later
+the other run.sh will need to have this optimization edit 
