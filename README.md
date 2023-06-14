@@ -32,7 +32,7 @@ git clone https://github.com/Rodartist/img12packfigurebase
 git clone https://github.com/Rodartist/C64Music
 
 Launch a gtk3 xterm expect script launcher do:
-cd /home/earth2del/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07 && ./runone
+cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07 && ./runone
 
 if you want to assign a small icon image on every button do:
 mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui
