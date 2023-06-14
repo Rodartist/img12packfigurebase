@@ -1,0 +1,7 @@
+    if [ -f .fakeramdisk ]; then
+    echo ".fakeramdisk exists"
+    else
+    echo ".fakeramdisk does not exist"
+    mkdir .fakeramdisk 2>/dev/null
+    fi
+#while IFS= read -a line;do echo "processing $line";. makecellnext.sh $line;done < ../AIOlist.uniq

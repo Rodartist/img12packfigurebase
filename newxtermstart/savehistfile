@@ -1,0 +1,1 @@
+while IFS= read -a line;do mv $line ../img12packfigurebase/newxtermstart/;done < firstthousand 

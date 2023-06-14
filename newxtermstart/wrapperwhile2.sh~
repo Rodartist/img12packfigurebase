@@ -1,0 +1,7 @@
+    if [ -f .fakeramdiskfixing ]; then
+    echo ".fakeramdiskfixing exists"
+    else
+    echo ".fakeramdiskfixing does not exist"
+    mkdir .fakeramdiskfixing 2>/dev/null
+    fi
+#while IFS= read -a line;do echo "processing $line";. makecellnext.sh $line;done < ../AIOlist.uniq
