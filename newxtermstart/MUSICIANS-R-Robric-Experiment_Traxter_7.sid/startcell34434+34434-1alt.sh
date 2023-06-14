@@ -1,0 +1,1 @@
+urxvt -hold -e /home/molasses/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstartshift/34434+34434-1cellalt.sh
