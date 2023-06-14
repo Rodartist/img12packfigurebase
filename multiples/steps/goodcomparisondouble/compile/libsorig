@@ -1,0 +1,10 @@
+#include <gtk/gtk.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+      char replacecmd[100];
+      const char *filename = "~/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/";
+static void
+print_r0 (GtkWidget *widget,
+                gpointer    data) 
+{

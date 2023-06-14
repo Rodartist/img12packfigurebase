@@ -1,0 +1,71 @@
+#/home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps
+
+
+#echo '
+#grid = gtk_grid_new();
+#gtk_container_add(GTK_CONTAINER (notebook), grid);'
+#p=0
+#m=0
+#z=_$(find /home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")
+#i=0;h=0;for h in {0..10};do if ! (( $i % 9 )) ; then let p++; m=0 ; fi; if [ "$m" -gt "9" ]; then m=0; fi; echo# '
+
+#button = gtk_button_new_with_mnemonics ("_'$(find /home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")'");
+#g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+#gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++;let h++;done
+
+#grid = gtk_grid_new();
+#gtk_container_add(GTK_CONTAINER (notebook), grid);
+
+#    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);                               
+#    GtkWidget *image999 = gtk_image_new_from_file (replacecmd2);                            
+#   GtkWidget *rbutton999 = gtk_button_new_with_mnemonic ("_slyrevert");                    
+
+
+
+
+#    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);
+#    GtkWidget *image13 = gtk_image_new_from_file (replacecmd2);
+#    GtkWidget *rbutton13= gtk_button_new_with_mnemonic ("_GAMES-01239-3D_Waterski.sid");
+#
+#
+#    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);
+#    GtkWidget *image14 = gtk_image_new_from_file (replacecmd2);
+#    GtkWidget *rbutton14= gtk_button_new_with_mnemonic ("_GAMES-01239-4x4_Off123Road_Racing.sid");
+#
+#
+#    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);
+#    GtkWidget *image15 = gtk_image_new_from_file (replacecmd2);
+#    GtkWidget *rbutton15= gtk_button_new_with_mnemonic ("_GAMES-01239-5_mal_5.sid");
+#
+#
+#    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);
+#    GtkWidget *image16 = gtk_image_new_from_file (replacecmd2);
+#    GtkWidget *rbutton16= gtk_button_new_with_mnemonic ("_GAMES-01239-5th_Gear.sid");
+
+#g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+#gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++; fi;done
+
+#for i in {0..1344};do if ! (( $i % 8 )) ; then let p++; m=0 ; fi; if [ "$m" -gt "8" ]; then m=0; fi;if ! (( $i % 80 )); then p=0;  fi; if ! (( $i % 80 )) && [ "$m" -eq "0" ]; then  echo '
+
+tail -n 1 countfile* > injectvalue2
+head -n 1 countfile* > injectvalue1
+
+
+#l="$(cat injectvalue1)";t="$(cat injectvalue2)";for i in {$l..$t};do echo '
+l="$(cat injectvalue1)";t="$(cat injectvalue2)";for i in {7487..8982};do echo '
+
+    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);                               
+    GtkWidget *image'$i' = gtk_image_new_from_file (replacecmd2);                            
+    GtkWidget *rbutton'$i'= gtk_button_new_with_mnemonic ("_'$(find /home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg2\/tmuxsync\/simplechangestogtkmsui-5-12-2023\/gtkmsui\/SIDgtk\/img12packfigurebase\/newxtermstart\///1")'");';done
+
+
+
+#for i in {0..319};do if ! (( $i % 8 )) ; then let p++; m=0 ; fi; if [ "$m" -gt "8" ]; then m=0; fi;if ! (( $i % 80 )); then p=0;  fi; if ! (( $i % 80 )) && [ "$m" -eq "0" ]; then  echo '
+#
+#grid = gtk_grid_new();
+#gtk_container_add(GTK_CONTAINER (notebook), grid);
+#
+g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++; else echo 'button = gtk_button_new_with_mnemonics ("_'$(find /home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")'");
+g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++; fi;done

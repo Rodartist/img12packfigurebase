@@ -1,0 +1,451 @@
+GtkWidget *AddPage1 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+GtkWidget *AddPage2 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+
+GtkWidget *AddPage3 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+GtkWidget *AddPage4 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+   /* GtkWidget *checkbutton; */
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+    /* Now let's add a page to a specific spot */
+    /* checkbutton = gtk_check_button_new_with_mnemonic ("Check me please!");
+    gtk_widget_set_size_request (checkbutton, 100, 75);
+    gtk_widget_show (checkbutton); */
+
+
+    return (frame);
+}
+GtkWidget *AddPage5 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+GtkWidget *AddPage6 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+GtkWidget *AddPage7 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+GtkWidget *AddPage8 (GtkWidget *notebook, char *szName)
+{
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    /* --- Create a label from the name. --- */
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    /* --- Create a frame for the page --- */
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    /* --- Add a page with the frame and label --- */
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+}
+static void activate (GtkApplication *app, 
+                            gpointer pos)
+{
+    GtkWidget *window;
+    GtkWidget *widget;
+    GtkWidget *grid; 
+    GtkWidget *hbox;
+    GtkWidget *box1; 
+    GtkWidget *notebook;
+    GtkWidget *button;
+    GtkWidget *label;
+    GtkWidget *checkbutton;
+
+    window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+  gtk_window_set_title (GTK_WINDOW (window), "Window");
+  gtk_container_set_border_width (GTK_CONTAINER (window), 10);
+  gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
+    box1 = gtk_vbox_new (FALSE, 0);
+    gtk_container_add (GTK_CONTAINER (window), box1);
+    notebook = gtk_notebook_new (); 
+
+
+    /* --- Make sure tabs are set on correct side --- */
+    gtk_box_pack_start (GTK_BOX (box1), notebook, TRUE, TRUE, 0);
+
+  
+
+
+
+
+
+lastlyofall ---
+
+#include <gtk/gtk.h>
+      char replacecmd[100];
+      const char *filename = "/home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/gnomegtk/img12packfigurebase/newxtermstartshift";
+
+   static void
+   print_r1 (GtkWidget *widget,
+             gpointer    data)
+   {
+      sprintf (replacecmd, "sh %s/startcell2+2-1alt.sh&\n", filename);
+      system (replacecmd);
+   }
+
+   static void
+print_r2 (GtkWidget *widget,
+              gpointer   data)
+{
+  system ("pkill yt-dlp&\n");
+}
+
+static void
+print_r3 (GtkWidget *widget,
+              gpointer   data)
+{
+  system ("pkill mplayer&\n");
+}
+
+    static void
+   print_r4 (GtkWidget *widget,
+                gpointer    data)
+    {
+     sprintf (replacecmd, "sh %s/startcell5+5-1alt.sh&\n", filename);
+     system (replacecmd);
+    }
+
+   static void
+   print_r5 (GtkWidget *widget,
+                gpointer    data)
+\   {
+     sprintf (replacecmd, "sh %s/startcell6+6-1alt.sh&\n", filename);
+     system (replacecmd);
+   }
+
+   GtkWidget *AddPage1 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+    
+    return (frame);
+   }
+   GtkWidget *AddPage2 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+    
+    return (frame);
+   }
+   GtkWidget *AddPage3 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+    
+    return (frame);
+   }
+   GtkWidget *AddPage4 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+    
+    return (frame);
+   }
+
+
+
+   static void activate (GtkApplication *app, 
+                            gpointer pos)
+   {
+    GtkWidget *window;
+    GtkWidget *grid; 
+    GtkWidget *hbox;
+    GtkWidget *box1; 
+    GtkWidget *notebook;
+    GtkWidget *button;
+    GtkWidget *label;
+    GtkWidget *checkbutton;
+
+    window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title (GTK_WINDOW (window), "Frodo");
+    gtk_container_set_border_width (GTK_CONTAINER (window), 10);
+    gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
+    box1 = gtk_vbox_new (FALSE, 0);
+    gtk_container_add (GTK_CONTAINER (window), box1);
+    notebook = gtk_notebook_new (); 
+    /* --- Start icon images --- */
+    char replacecmd2[100];
+   /* --- directory of image icons --- */
+    const char *filename2 = "/home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui/";
+
+    sprintf (replacecmd2, "%s/icon1-55x55.jpg", filename2);
+    GtkWidget *image1 = gtk_image_new_from_file (replacecmd2);
+    GtkWidget *rbutton1 = gtk_button_new_with_mnemonic ("_slyrevert");
+    
+    sprintf (replacecmd2, "%s/icon2-55x55.jpg", filename2); GtkWidget
+    *image2 = gtk_image_new_from_file (replacecmd2); GtkWidget
+    *rbutton2 = gtk_button_new_with_mnemonic ("_pkillytdl-p");
+    
+    sprintf (replacecmd2, "%s/icon3-55x55.jpg", filename2); GtkWidget
+    *image3 = gtk_image_new_from_file (replacecmd2); GtkWidget
+    *rbutton3 = gtk_button_new_with_mnemonic ("_pkillm-player");
+
+    sprintf (replacecmd2, "%s/icon4-55x55.jpg", filename2); GtkWidget
+    *image4 = gtk_image_new_from_file (replacecmd2); GtkWidget
+    *rbutton4 = gtk_button_new_with_mnemonic ("_bass");
+
+    sprintf (replacecmd2, "%s/icon5-55x55.jpg", filename2); GtkWidget
+    *image5 = gtk_image_new_from_file (replacecmd2); GtkWidget
+    *rbutton5 = gtk_button_new_with_mnemonic ("_listcreation");
+
+        sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);
+    GtkWidget *image999 = gtk_image_new_from_file (replacecmd2);
+    GtkWidget *rbutton999 = gtk_button_new_with_mnemonic ("_Quit");
+
+        sprintf (replacecmd2, "%s/icon998-55x55.jpg", filename2);
+    GtkWidget *image998 = gtk_image_new_from_file (replacecmd2);
+    GtkWidget *rbutton998 = gtk_button_new_with_mnemonic ("_Quit");
+
+    
+        sprintf (replacecmd2, "%s/icon997-55x55.jpg", filename2);
+    GtkWidget *image997 = gtk_image_new_from_file (replacecmd2);
+    GtkWidget *rbutton997 = gtk_button_new_with_mnemonic ("_Quit");
+    
+        sprintf (replacecmd2, "%s/icon996-55x55.jpg", filename2);
+    GtkWidget *image996 = gtk_image_new_from_file (replacecmd2);
+    GtkWidget *rbutton996 = gtk_button_new_with_mnemonic ("_Quit");
+    
+    gtk_box_pack_start (GTK_BOX (box1), notebook, TRUE, TRUE, 0); grid
+    = gtk_grid_new(); gtk_container_add(GTK_CONTAINER (notebook),
+    grid);
+ 
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton1), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton1), image1);
+    g_signal_connect (rbutton1, "clicked", G_CALLBACK (print_r1),
+    NULL); gtk_grid_attach (GTK_GRID (grid), rbutton1, 0, 0, 1, 1);
+    
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton2), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton2), image2);
+    g_signal_connect (rbutton2, "clicked", G_CALLBACK (print_r2),
+    NULL); gtk_grid_attach (GTK_GRID (grid), rbutton2, 1, 0, 1, 1);
+    
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton3), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton3), image3);
+    g_signal_connect (rbutton3, "clicked", G_CALLBACK (print_r3),
+    NULL); gtk_grid_attach (GTK_GRID (grid), rbutton3, 2, 0, 1, 1);
+
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton4), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton4), image4);
+    g_signal_connect (rbutton4, "clicked", G_CALLBACK (print_r4),
+    NULL); gtk_grid_attach (GTK_GRID (grid), rbutton4, 3, 0, 1, 1);
+
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton5), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton5), image5);
+    g_signal_connect (rbutton5, "clicked", G_CALLBACK (print_r5),
+    NULL); gtk_grid_attach (GTK_GRID (grid), rbutton5, 0, 1, 1, 1);
+
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton999), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton999), image999);
+    g_signal_connect_swapped (rbutton999, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton999, 3, 2, 1, 1);
+
+    
+    grid = gtk_grid_new(); gtk_container_add(GTK_CONTAINER (notebook),
+    grid);
+ 
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton998), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton998), image998);
+    g_signal_connect_swapped (rbutton998, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton998, 3, 2, 1, 1);
+
+    grid = gtk_grid_new(); gtk_container_add(GTK_CONTAINER (notebook),
+    grid);
+ 
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton997), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton997), image997);
+    g_signal_connect_swapped (rbutton997, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton997, 3, 2, 1, 1);
+
+    grid = gtk_grid_new(); gtk_container_add(GTK_CONTAINER (notebook),
+    grid);
+ 
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton996), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton996), image996);
+    g_signal_connect_swapped (rbutton996, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton996, 3, 2, 1, 1);
+    /* --- commenting here old way buttons template resource    
+    button = gtk_button_new_with_mnemonic ("slyrevert");
+    g_signal_connect (button, "clicked", G_CALLBACK (print_r1), NULL);
+    gtk_grid_attach (GTK_GRID (grid), button, 0, 0, 1, 1);
+
+    button = gtk_button_new_with_label ("pkill yt-dlp" );
+    g_signal_connect (button, "clicked", G_CALLBACK (print_r2), NULL);
+    gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
+
+    button = gtk_button_new_with_label ("pkill mplayer" );
+    g_signal_connect (button, "clicked", G_CALLBACK (print_r3), NULL);
+    gtk_grid_attach (GTK_GRID (grid), button, 2, 0, 1, 1);
+
+    button = gtk_button_new_with_label ("bass" );
+    g_signal_connect (button, "clicked", G_CALLBACK (print_r4), NULL);
+    gtk_grid_attach (GTK_GRID (grid), button, 3, 0, 1, 1);
+    commenting here old way buttons template resource   --- 
+    button = gtk_button_new_with_label ("Quit");
+    g_signal_connect_swapped (button, "clicked", G_CALLBACK (gtk_widget_destroy), window);
+-- Place the Quit button in the grid cell (0, 1), and make it span 2 columns. -- 
+-- different now gtk_grid_attach (GTK_GRID (grid), button, 0, 31, 27, 1); --
+    gtk_grid_attach (GTK_GRID (grid), button, 3, 2, 1, 1);
+            commenting here old way buttons template resource   --- */
+    g_signal_connect_swapped(G_OBJECT(window), "destroy", G_CALLBACK(gtk_main_quit), NULL);
+    gtk_widget_show_all(window);
+    gtk_main();
+   }
+/* copypasta section ending */ 
+    int main( int argc, char **argv)
+    {
+    gtk_init(&argc, &argv);
+    GtkApplication *llapp;
+    int status;
+    llapp = gtk_application_new ("org.gtk.papermoontowergheavenlyui", G_APPLICATION_FLAGS_NONE);
+    g_signal_connect (llapp, "activate", G_CALLBACK (activate), NULL);
+    status = g_application_run (G_APPLICATION (llapp), argc, argv);
+    g_object_unref (llapp);
+    return status;
+    }

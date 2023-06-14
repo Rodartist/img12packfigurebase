@@ -1,0 +1,205 @@
+#!/bin/bash
+
+GTKDIALOG=gtkdialog
+export MAIN_DIALOG='
+
+<window title="My Second Program" icon-name="gtk-about" resizable="true" width-request="450" height-request="324">
+
+<vbox>
+       <hbox space-fill="true">
+               <combobox>
+                        <variable>myitem</variable>
+                        <item>nFirst Onen</item>
+                        <item>nSecond Onen</item>
+                        <item>nThird Onen</item>
+               </combobox>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>0.sh</label>
+                       <action>sh $HOME/twitchscripts2/0.sh.sh &</action>
+               </button>
+               <button>
+                       <label>1.sh</label>
+                       <action>sh $HOME/twitchscripts2/1.sh.sh &</action>
+               </button>
+               <button>
+                       <label>10.sh</label>
+                       <action>sh $HOME/twitchscripts2/10.sh.sh &</action>
+               </button>
+               <button>
+                       <label>11.sh</label>
+                       <action>sh $HOME/twitchscripts2/11.sh.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>12.sh</label>
+                       <action>sh $HOME/twitchscripts2/12.sh.sh &</action>
+               </button>
+               <button>
+                       <label>13.sh</label>
+                       <action>sh $HOME/twitchscripts2/13.sh.sh &</action>
+               </button>
+               <button>
+                       <label>14.sh</label>
+                       <action>sh $HOME/twitchscripts2/14.sh.sh &</action>
+               </button>
+               <button>
+                       <label>15.sh</label>
+                       <action>sh $HOME/twitchscripts2/15.sh.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>16.sh</label>
+                       <action>sh $HOME/twitchscripts2/16.sh.sh &</action>
+               </button>
+               <button>
+                       <label>2.sh</label>
+                       <action>sh $HOME/twitchscripts2/2.sh.sh &</action>
+               </button>
+               <button>
+                       <label>3.sh</label>
+                       <action>sh $HOME/twitchscripts2/3.sh.sh &</action>
+               </button>
+               <button>
+                       <label>4.sh</label>
+                       <action>sh $HOME/twitchscripts2/4.sh.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>5.sh</label>
+                       <action>sh $HOME/twitchscripts2/5.sh.sh &</action>
+               </button>
+               <button>
+                       <label>6.sh</label>
+                       <action>sh $HOME/twitchscripts2/6.sh.sh &</action>
+               </button>
+               <button>
+                       <label>7.sh</label>
+                       <action>sh $HOME/twitchscripts2/7.sh.sh &</action>
+               </button>
+               <button>
+                       <label>8.sh</label>
+                       <action>sh $HOME/twitchscripts2/8.sh.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>9.sh</label>
+                       <action>sh $HOME/twitchscripts2/9.sh.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+       <hbox>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>blank</label>
+                       <action>sh $HOME/twitchscripts2/blank.sh &</action>
+               </button>
+               <button>
+                       <label>R.A.N. xterm</label>
+                       <action>xterm -geometry 25x10+125+0 -hold -e $HOME/howtoxtermstartup/promptonecmd.sh &</action>
+               </button>
+       </hbox>
+<hseparator width-request="240"></hseparator>
+<hseparator width-request="240"></hseparator>
+       <hbox>
+                <button ok></button>
+       </hbox>
+</vbox>
+</window>
+'
+
+case $1 in
+        -d | --dump) echo "$MAIN_DIALOG" ;;
+        *) $GTKDIALOG --program=MAIN_DIALOG --center ;;
+esac

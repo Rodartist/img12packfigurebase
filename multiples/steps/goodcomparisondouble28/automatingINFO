@@ -1,0 +1,9 @@
+cat AIOlist.uniqpaste | wc -l
+for i in {1..53669};do echo $i >> countfile;done
+split -l 1497 --numeric-suffixes newxtermshiftliststarts.txt fourteenninetysevenlist
+split -l 1497 --numeric-suffixes countfile countfilelist
+for i in goodcomparisondouble[0-3][0-9];do cp INFO goodcomparisondouble36;done
+head countfilelist* && tail countfilelist*
+for i in goodcomparisondouble[0-3][0-9];do cp automatingINFO $i;done
+
+sh buttonsgeneratingtodesirevariable.shcopyfrom > buttonslistsgenerate.iconimagesection

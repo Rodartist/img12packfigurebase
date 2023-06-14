@@ -1,0 +1,88 @@
+
+
+   GtkWidget *AddPage1 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+   }
+   GtkWidget *AddPage2 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+   }
+   GtkWidget *AddPage3 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+   }
+   GtkWidget *AddPage4 (GtkWidget *notebook, char *szName)
+   {
+    GtkWidget *label;
+    GtkWidget *frame;
+
+    label = gtk_label_new (szName);
+    gtk_widget_show (label);
+
+    frame = gtk_frame_new (szName);
+    gtk_widget_show (frame);
+
+    gtk_notebook_append_page (GTK_NOTEBOOK (notebook), frame, label);
+
+    return (frame);
+   }
+
+
+
+   static void activate (GtkApplication *app,
+                            gpointer pos)
+   {
+    GtkWidget *window;
+    GtkWidget *grid;
+    GtkWidget *hbox;
+    GtkWidget *box1;
+    GtkWidget *notebook;
+    GtkWidget *button;
+    GtkWidget *label;
+    GtkWidget *checkbutton;
+
+    window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title (GTK_WINDOW (window), "Frodo");
+    gtk_container_set_border_width (GTK_CONTAINER (window), 10);
+    gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
+    box1 = gtk_vbox_new (FALSE, 0);
+    gtk_container_add (GTK_CONTAINER (window), box1);
+    notebook = gtk_notebook_new ();
+    /* --- Start icon images --- */
+    char replacecmd2[100];
+   /* --- directory of image icons --- */
+    const char *filename2 = "/home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui/";

@@ -1,0 +1,18 @@
+sh pointerlist.sh > runone.c
+echo "1" && sleep 3s 
+cat newinbetweencodeimages >> runone.c
+echo "2" && sleep 3s
+cat buttonslistsgenerate.iconimagesection >> runone.c
+echo "3" && sleep 3s
+sh quitbuttongen.sh >> runone.c
+echo "4" && sleep 3s
+cat >> endofthebeginning >> runone.c
+echo "5" && sleep 3s
+cat endofthebeginning >> runone.c
+echo "6" && sleep 3s
+sh generatingshtwo.sh >> runone.c
+echo "7" && sleep 3s
+cat endingcode >> runone.c
+echo "8" && sleep 3s
+echo "do sh run.sh Press Enter To edit the non present coordinates below button999";read xyz;emacs -nw runone.c
+

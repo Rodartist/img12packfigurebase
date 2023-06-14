@@ -1,0 +1,24 @@
+#/home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/multiples/steps
+
+
+#echo '
+#grid = gtk_grid_new();
+#gtk_container_add(GTK_CONTAINER (notebook), grid);'
+#p=0
+#m=0
+#z=_$(find /home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")
+#i=0;h=0;for h in {0..10};do if ! (( $i % 9 )) ; then let p++; m=0 ; fi; if [ "$m" -gt "9" ]; then m=0; fi; echo# '
+
+#button = gtk_button_new_with_mnemonics ("_'$(find /home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")'");
+#g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+#gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++;let h++;done
+for i in {0..319};do if ! (( $i % 8 )) ; then let p++; m=0 ; fi; if [ "$m" -gt "8" ]; then m=0; fi;if ! (( $i % 80 )); then p=0;  fi; if ! (( $i % 80 )) && [ "$m" -eq "0" ]; then  echo '
+
+grid = gtk_grid_new();
+gtk_container_add(GTK_CONTAINER (notebook), grid);
+
+button = gtk_button_new_with_mnemonics ("_'$(find /home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")'");
+g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++; else echo 'button = gtk_button_new_with_mnemonics ("_'$(find /home/atler63/sy/mb/ol/directorypushd/BGD-asesine1/img12packfigureback2/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg4\/sy\/mb\/ol\/gnomegtk\/imagine-eleven\/newxtermstart\///1")'");
+g_signal_connect (button, "clicked", G_CALLBACK (print_r'$i'), NULL);
+gtk_grid_attach (GTK_GRID (grid), button, '$m', '$p', 1, 1);'; let i++; let m++; fi;done

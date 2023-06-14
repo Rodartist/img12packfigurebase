@@ -1,0 +1,1 @@
+sed "{ N;s/.*/let\ i++ &/; }" notes16-07-202041.txtnumdouble > notes16-07-202041.txtnumdo2

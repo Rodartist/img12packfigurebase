@@ -1,0 +1,30 @@
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton997), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton997), image997);
+    g_signal_connect_swapped (rbutton997, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton997, 3, 2, 1, 1);
+
+    grid = gtk_grid_new(); gtk_container_add(GTK_CONTAINER (notebook),
+    grid);
+
+    gtk_button_set_always_show_image (GTK_BUTTON (rbutton996), TRUE);
+    gtk_button_set_image (GTK_BUTTON (rbutton996), image996);
+    g_signal_connect_swapped (rbutton996, "clicked", G_CALLBACK
+    (gtk_widget_destroy), window); gtk_grid_attach (GTK_GRID (grid),
+    rbutton996, 3, 2, 1, 1);
+    g_signal_connect_swapped(G_OBJECT(window), "destroy", G_CALLBACK(gtk_main_quit), NULL);
+    gtk_widget_show_all(window);
+    gtk_main();
+   }
+/* copypasta section ending */
+    int main( int argc, char **argv)
+    {
+    gtk_init(&argc, &argv);
+    GtkApplication *llapp;
+    int status;
+    llapp = gtk_application_new ("org.gtk.peaui", G_APPLICATION_FLAGS_NONE);
+    g_signal_connect (llapp, "activate", G_CALLBACK (activate), NULL);
+    status = g_application_run (G_APPLICATION (llapp), argc, argv);
+    g_object_unref (llapp);
+    return status;
+    }

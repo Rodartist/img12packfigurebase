@@ -1,0 +1,1 @@
+sed -i s/teststream/wdatased/g afile23.sh

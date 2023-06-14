@@ -1,0 +1,11 @@
+#/home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps
+tail -n 1 countfile* > injectvalue2
+head -n 1 countfile* > injectvalue1
+
+
+l="$(cat injectvalue1)";t="$(cat injectvalue2)";for (( i = $l; i <= $t; i++ ));do echo '
+
+    sprintf (replacecmd2, "%s/icon999-55x55.jpg", filename2);                               
+    GtkWidget *image'$i' = gtk_image_new_from_file (replacecmd2);                            
+    GtkWidget *rbutton'$i'= gtk_button_new_with_mnemonic ("_'$(find /home/seikoreg2/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/newxtermstart/ -name "*$i+$i-1alt*" | sed 's:[^/]*$::' | sed 's:[$/]*$::' | sed "s/\/home\/seikoreg2\/tmuxsync\/simplechangestogtkmsui-5-12-2023\/gtkmsui\/SIDgtk\/img12packfigurebase\/newxtermstart\///1")'");';done
+
