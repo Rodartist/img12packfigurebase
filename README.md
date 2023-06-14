@@ -26,7 +26,9 @@ and in home folder (~) do
 mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
 
 cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
+
 git clone https://github.com/Rodartist/img12packfigurebase
+
 git clone https://github.com/Rodartist/C64Music
 
 Launch a gtk3 xterm expect script launcher do:
