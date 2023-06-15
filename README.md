@@ -33,6 +33,7 @@ git clone https://github.com/Rodartist/C64Music
 
 Launch a gtk3 xterm expect script launcher do:
 cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/img12packfigurebase/multiples/steps/goodcomparisondouble07 && ./runone
+
 also if you want a different theme prepend  like so GTK_THEME=Adwaita:light ./runone 
 if you want to assign a small icon image on every button do:
 mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/iconsgtkmsui
