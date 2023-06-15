@@ -49,3 +49,4 @@ the other run.sh will need to have this optimization edit
 last notes:
 install xdotool and in kde or fluxbox you want to assign Mod1 r :ToggleCmd {SetLayer Top} {SetLayer Normal}  <-- .fluxbox/keys
 or Alt + r key to set window always on top and the expect include this line.
+want approximately 3.7 gigs free for everything
