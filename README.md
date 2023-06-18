@@ -24,12 +24,15 @@ sudo ln -s /home/YOURUSER /home/molasses replace YOURUSER with your username
 and in home folder (~) do 
 
 mkdir -p $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
+
 mkdir $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
+
 cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
 
 git clone https://github.com/Rodartist/img12packfigurebase
 
 git clone https://github.com/Rodartist/C64Music
+
 mv C64Music SID/
 
 Launch a gtk3 xterm expect script launcher do:
