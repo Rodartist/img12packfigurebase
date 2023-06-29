@@ -29,6 +29,8 @@ mkdir $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
 
 cd $HOME/tmuxsync/simplechangestogtkmsui-5-12-2023/gtkmsui/SIDgtk/
 
+mkdir SID/
+
 git clone https://github.com/Rodartist/img12packfigurebase
 
 git clone https://github.com/Rodartist/C64Music
